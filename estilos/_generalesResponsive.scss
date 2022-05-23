@@ -1,0 +1,10 @@
+@media (max-width: 576px) {
+    .navs-item{
+        margin: auto;
+    }
+}
+@media (max-width: 432px) {
+    .navs-item{
+        display: none;
+    }
+}

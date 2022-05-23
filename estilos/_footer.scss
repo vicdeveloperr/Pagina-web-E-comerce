@@ -1,0 +1,19 @@
+@use "generales";
+.footer{
+    background-color: #222;
+    color: #ccc;
+}
+.footer-bajo{
+    background-color: #f1f1f1;
+    color: #000;
+}
+.texto-footer:hover{
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    transition: color 150ms;
+}
+.submenu-footer{
+    text-decoration: underline;
+    color: #fff;
+}

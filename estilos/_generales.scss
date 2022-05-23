@@ -1,0 +1,75 @@
+$colorNegro: #222;
+$fs: 1.2rem;
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.icono{
+    max-width: 30px;
+    text-decoration: none;
+    font-style: normal;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.encabezado{
+    font-weight: 400;
+}
+/* INFO */
+.info-container{
+    overflow: hidden;
+    cursor: pointer;
+}
+.info{
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0;
+    align-self: flex-end;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    bottom: -150px;
+    transition: bottom 150ms;
+}
+.ocultar{
+    bottom: 0;
+}
+.info-item{
+    color: #ccc;
+}
+.info-item:hover{
+    color: #fff;
+}
+/* NAV */
+.navs-item{
+    display: inline-block;
+    padding-left: 16px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #ccc;
+    cursor: pointer;
+    &:hover{
+        color: #222;
+        transition: color, 150ms;
+    }
+}
+.navs-item--1{
+    display: inline-block;
+    padding-left: 16px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer;
+    color: #222;
+}
+.fs-parrafo{
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin: 0;
+}
+.oferta{
+    color: #f00;
+    margin-left: 5px;
+    font-weight: 100;
+}
